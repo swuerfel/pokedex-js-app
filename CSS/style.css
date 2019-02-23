@@ -1,11 +1,53 @@
+/* Declarations for color variables */
+:root {
+  --primary-color: #357b70;
+  --primary-color--visited: #05676e;
+  --primary-color--active: #489c79;
+  --secondary-color: #e0b354;
+  --dark-grey: #2b2b2b;
+  --text-color-lighter: #fff;
+  --text-color: #000;
+  --box-background-color: #d3d3d3;
+  --main-font-size: 17px;
+  --heading-font-weight: 700;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: var(--main-font-size);
+
+  /* Sets the font size to 16px */
+
+  line-height: 1.6;
+
+  /* Sets the line-height to 1.6 */
 }
 
 h1 {
   font-size: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
 }
