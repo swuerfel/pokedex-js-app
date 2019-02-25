@@ -69,4 +69,15 @@ for (var i = 0; i < repository.length; i++) {
 
 /*var i=0;
 document.write(repository[i].name + ' (<i>height:</i> ' + repository[i].height +
-' - ' + getSizeTest(repository[i].height) + ' - , <i>type:</i><span style="color:' + color[repository[i].types[0]] +'" > ' + repository[i].types[0] + ') ' + '</span><br>');*/
+' - ' + getSizeTest(repository[i].height) + ' - ,
+<i>type:</i><span style="color:' + color[repository[i].types[0]] +'" > ' +
+ repository[i].types[0] + ') ' + '</span><br>');*/
+
+ // ### V 4.0 (with a switch statement) ###
+ // This array will become the repository of Pokémon to display in your application
+ document.write('<br><br>Version 4<br>(with a switch statement)<br><br>');
+ var repository = [
+   {name: 'Bulbasaur', height: 7, types: ['grass', ' poison'] },
+   {name: 'Charmander', height: 6, types: ['fire'] },
+   {name: 'Squirtle', height: 5, types: ['water'] }
+ ];
