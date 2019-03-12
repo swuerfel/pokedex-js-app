@@ -30,7 +30,62 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+  /* background-color: var(--box-background-color);
+  text-align: left;
+  padding: 20px 20px;
+  margin-top: 20px; */
+}
+
+button {
+  background-color: var(--box-background-color);
+}
+
+.button__more {
+  padding: 20px 40px;
+  margin-top: 20px;
+  max-width: 100%;
+  width: 800px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Header with flexbox */
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.page-header__item {
+  flex: 0 1 200px;
+}
+
+.page-header :last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .content {
