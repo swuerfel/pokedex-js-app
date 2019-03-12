@@ -1,4 +1,4 @@
-function executeProgram() {
+// function executeProgram() {
 
   var pokemonRepository = (function () {
     var repository = [
@@ -59,5 +59,5 @@ function executeProgram() {
 //     }
   // });
 //
-}
-executeProgram();
+// }
+// executeProgram();
